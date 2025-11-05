@@ -6,7 +6,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import openpyxl
 
 #2-Importacion de fuentes de datos
-data = pd.read_csv(r'files\houses_Madrid.csv')
-print(data.head())
+data = pd.read_excel(r'files\viviendas_Madrid.xlsx')
+
+
+#MMostrar inforamcion del dataframe
+print(data.info())
