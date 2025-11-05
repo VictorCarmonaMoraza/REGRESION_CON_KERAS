@@ -9,8 +9,11 @@ import seaborn as sns
 import openpyxl
 
 #2-Importacion de fuentes de datos
-data = pd.read_excel(r'files\viviendas_Madrid.xlsx')
+df_data = pd.read_excel(r'files\viviendas_Madrid.xlsx',sheet_name='Datos_Históricos')
+
+print(df_data.info())
+
+print(df_data.head())
 
 
-#MMostrar inforamcion del dataframe
-print(data.info())
+
