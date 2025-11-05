@@ -15,5 +15,11 @@ print(df_data.info())
 
 print(df_data.head())
 
+#3-Analisis de datos (EDA) y Preprocesado
+
+#3.1-Analisis de valores nulos. Comprobar cuantos valores nulos existen en cada columna
+print(df_data.isnull().sum())
+
+
 
 
