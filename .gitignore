@@ -1,0 +1,132 @@
+# ===============================
+# 🐍 Python general
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ===============================
+# 📦 Entornos virtuales
+# ===============================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# 🧰 Configuración de IDEs
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# 📊 Logs y archivos temporales
+# ===============================
+*.log
+*.tmp
+*.bak
+*.orig
+*.pid
+*.seed
+*.out
+
+# ===============================
+# 🧪 Testing
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.tox/
+.cache/
+hypothesis/
+
+# ===============================
+# 🧱 Builds, distribuciones y artefactos
+# ===============================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# ===============================
+# 🧩 Archivos de instalación
+# ===============================
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# ===============================
+# ⚙️ Configuración de entorno / Docker
+# ===============================
+*.env
+*.env.*
+.env.local
+docker-compose.override.yml
+.DS_Store
+
+# ===============================
+# 📂 Archivos de base de datos locales
+# ===============================
+*.db
+*.sqlite3
+
+# ===============================
+# 🔐 Claves o configuraciones sensibles
+# ===============================
+*.pem
+*.key
+*.crt
+*.p12
+secrets.json
+config.json
+credentials.json
+
+# ===============================
+# 🧠 Documentación / notebooks
+# ===============================
+.ipynb_checkpoints/
+docs/_build/
+site/
+
+# ===============================
+# 🧮 Herramientas de empaquetado
+# ===============================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================
+# 🧰 CI/CD y herramientas externas
+# ===============================
+.github/
+.gitlab/
+.envrc
+
+# ===============================
+# 🧱 Otros (opcional)
+# ===============================
+Thumbs.db
+Desktop.ini
